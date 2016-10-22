@@ -1775,7 +1775,23 @@
 
 /* Section/Article */
 
-#project { background: #223970; }
+#project { background: #f9be06; }
+
+#project h2 { color: #223970; font-family: 'Dosis', sans-serif; font-weight: bold;}
+
+#project h3 { color: #223970; font-family: 'Dosis', sans-serif; font-weight: bold;}
+
+#project p { color: #223970; font-family: 'Dosis', sans-serif; font-weight: semi-bold;}
+
+#team { background: #223970;}
+#team p {color: #f9be06; font-family: 'Dosis', sans-serif; font-weight: semi-bold;}
+#team h2 {color: #f9be06; font-family: 'Dosis', sans-serif; font-weight: bold;}
+#team h3 {color: #f9be06; font-family: 'Dosis', sans-serif; font-weight: bold;}
+
+#contact { background: #223970;}
+#contact h2 {color: #f9be06; font-family: 'Dosis', sans-serif; font-weight: bold;}
+#contact h3 {color: #f9be06; font-family: 'Dosis', sans-serif; font-weight: bold;}
+#contact ul {color: #f9be06; font-family: 'Dosis', sans-serif; font-weight: bold;}
 
 	section.special, article.special {
 		text-align: center;
@@ -2938,13 +2954,14 @@
 
 	#banner {
 		padding: 12em 0 10em 0;
-		background-image: url('../../images/banner3.png');
+		background-image: url('../../images/banner4.png');
 		background-size: contain;
 		background-position: top;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		text-align: center;
 		border-top: 0.5em solid #5385c1;
+		//height: 456.5px;
 	}
 
 		#banner h1 {
@@ -2955,12 +2972,15 @@
 			margin: 0 0 0.5em 0;
 			padding: 0;
 			font-family: 'Caveat Brush', cursive;
+			opacity: 0;
 		}
 
 		#banner p {
 			font-size: 1em;
 			color: rgba(255, 255, 255, 0.55);
 			margin-bottom: 1.75em;
+			font-family: 'Dosis', sans-serif;
+			opacity: 0;
 		}
 
 		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
