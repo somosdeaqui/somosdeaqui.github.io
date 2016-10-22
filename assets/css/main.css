@@ -1791,7 +1791,7 @@
 #contact { background: #223970;}
 #contact h2 {color: #f9be06; font-family: 'Dosis', sans-serif; font-weight: bold;}
 #contact h3 {color: #f9be06; font-family: 'Dosis', sans-serif; font-weight: bold;}
-#contact ul {color: #f9be06; font-family: 'Dosis', sans-serif; font-weight: bold;}
+#contact p {color: #f9be06; font-family: 'Dosis', sans-serif; font-weight: bold; font-size: 1em;}
 
 	section.special, article.special {
 		text-align: center;
@@ -2002,7 +2002,7 @@
 	}
 
 	label {
-		color: #555;
+		color: white;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 600;
@@ -2968,7 +2968,7 @@
 		background-repeat: no-repeat;
 		text-align: center;
 		border-top: 0.5em solid #5385c1;
-		//height: 456.5px;
+		height: 600px;
 	}
 
 		#banner h1 {
@@ -3040,14 +3040,18 @@
 
 /* Footer */
 
+	#footer { background: #223970; }
+
 	#footer .inner {
 		border-top: 1px solid #dbdbdb;
 		padding-top: 3em;
 	}
 
 	#footer .copyright {
-		color: #bbb;
-		font-size: 0.8em;
+		color: #f9be06;
+		font-family: 'Dosis', sans-serif;
+		font-weight: bold;
+		font-size: 0.9em;
 		margin: 0 0 2em 0;
 		padding: 0;
 	}
