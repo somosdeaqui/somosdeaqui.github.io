@@ -2766,7 +2766,7 @@
 			font-family: 'Caveat Brush', cursive;
 			font-weight: bold;
 			display: inline-block;
-			font-weight: 600;
+			//font-weight: 600;
 			height: inherit;
 			left: 0;
 			line-height: inherit;
@@ -2774,7 +2774,7 @@
 			padding: 0;
 			position: absolute;
 			top: 0;
-			font-size: 1em;
+			font-size: 1.4em;
 		}
 
 		#header a {
