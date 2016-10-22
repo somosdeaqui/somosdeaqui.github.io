@@ -2753,7 +2753,7 @@
 		width: 100%;
 		z-index: 10001;
 		position: fixed;
-		background: black; 
+		background: #223970;
 	}
 
 		#header .inner {
@@ -2762,7 +2762,9 @@
 		}
 
 		#header .logo {
-			color: #ffffff;
+			color: #f9be06;
+			font-family: 'Caveat Brush', cursive;
+			font-weight: bold;
 			display: inline-block;
 			font-weight: 600;
 			height: inherit;
@@ -2856,9 +2858,12 @@
 
 		#nav {
 			display: none;
+			font-family: 'Dosis', sans-serif;
 		}
 
 	}
+
+#nav { color: #f9be06; font-family: 'Dosis', sans-serif; font-weight: bold;}
 
 	#navPanel {
 		-moz-transform: translatex(20em);
@@ -2875,13 +2880,14 @@
 		position: fixed;
 		right: 0;
 		top: 0;
-		background: #5385c1;
-		color: #d4e0ef;
+		background: #223970;
+		color: #f9be06;
 		height: 100%;
 		max-width: 80%;
 		width: 20em;
 		padding: 0.5em 1.25em;
 		z-index: 10003;
+		font-family: 'Dosis', sans-serif;
 	}
 
 		#navPanel.visible {
@@ -2891,6 +2897,7 @@
 			transform: translatex(0);
 			box-shadow: 0 0 1.5em 0 rgba(0, 0, 0, 0.2);
 			visibility: visible;
+			color: #f9be06;
 		}
 
 		#navPanel a:not(.close) {
